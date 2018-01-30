@@ -278,7 +278,6 @@
 		CBF27E47201F38D200A3B505 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7CEED7HVQ;
 				INFOPLIST_FILE = "Sole Siccness/Info.plist";
@@ -295,7 +294,6 @@
 		CBF27E48201F38D200A3B505 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7CEED7HVQ;
 				INFOPLIST_FILE = "Sole Siccness/Info.plist";
