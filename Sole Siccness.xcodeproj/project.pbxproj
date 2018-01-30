@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBC3ED5C2020718300EEB2E6 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC3ED5B2020718300EEB2E6 /* Images-2.xcassets */; };
+		CBC3ED5E202071B300EEB2E6 /* AppIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CBC3ED5D202071B300EEB2E6 /* AppIcon.jpeg */; };
+		CBC3ED602020723F00EEB2E6 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = CBC3ED5F2020723F00EEB2E6 /* AppIcon.appiconset */; };
 		CBCFC8FE201F8D59001BBE6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCFC8FD201F8D59001BBE6F /* Assets.xcassets */; };
 		CBF27E38201F38D200A3B505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF27E37201F38D200A3B505 /* AppDelegate.swift */; };
 		CBF27E3A201F38D200A3B505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF27E39201F38D200A3B505 /* ViewController.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CBC3ED5B2020718300EEB2E6 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		CBC3ED5D202071B300EEB2E6 /* AppIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AppIcon.jpeg; sourceTree = "<group>"; };
+		CBC3ED5F2020723F00EEB2E6 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../AppIcon.appiconset; sourceTree = "<group>"; };
 		CBCFC8FD201F8D59001BBE6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBF27E34201F38D200A3B505 /* Sole Siccness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sole Siccness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF27E37201F38D200A3B505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +74,10 @@
 				CBCFC8FD201F8D59001BBE6F /* Assets.xcassets */,
 				CBF27E4B201F392C00A3B505 /* Models.swift */,
 				CBF27E4D201F396900A3B505 /* AppDetailController.swift */,
+				CBC3ED5F2020723F00EEB2E6 /* AppIcon.appiconset */,
 				CBF27E4F201F398900A3B505 /* ScreenshotsCell.swift */,
+				CBC3ED5B2020718300EEB2E6 /* Images-2.xcassets */,
+				CBC3ED5D202071B300EEB2E6 /* AppIcon.jpeg */,
 			);
 			path = "Sole Siccness";
 			sourceTree = "<group>";
@@ -133,7 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBC3ED5C2020718300EEB2E6 /* Images-2.xcassets in Resources */,
 				CBF27E42201F38D200A3B505 /* LaunchScreen.storyboard in Resources */,
+				CBC3ED5E202071B300EEB2E6 /* AppIcon.jpeg in Resources */,
+				CBC3ED602020723F00EEB2E6 /* AppIcon.appiconset in Resources */,
 				CBCFC8FE201F8D59001BBE6F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +290,7 @@
 		CBF27E47201F38D200A3B505 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7CEED7HVQ;
 				INFOPLIST_FILE = "Sole Siccness/Info.plist";
@@ -294,6 +307,7 @@
 		CBF27E48201F38D200A3B505 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7CEED7HVQ;
 				INFOPLIST_FILE = "Sole Siccness/Info.plist";
