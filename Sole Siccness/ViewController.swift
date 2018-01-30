@@ -28,7 +28,7 @@ class FeaturedAppsController: UICollectionViewController, UICollectionViewDelega
             self.collectionView?.reloadData()
         }
         
-        collectionView?.backgroundColor = UIColor.white
+        collectionView?.backgroundColor = UIColor.gray
         collectionView?.register(CategoryCell.self, forCellWithReuseIdentifier: cellId)
         collectionView?.register(LargeCategoryCell.self, forCellWithReuseIdentifier: largeCellId)
         
@@ -68,14 +68,14 @@ class FeaturedAppsController: UICollectionViewController, UICollectionViewDelega
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         if indexPath.item == 2 {
-            return CGSize(width: view.frame.width, height: 160)
+            return CGSize(width: view.frame.width, height: 165)
         }
         
-        return CGSize(width: view.frame.width, height: 230)
+        return CGSize(width: view.frame.width, height: 220)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        return CGSize(width: view.frame.width, height: 120)
+        return CGSize(width: view.frame.width, height: 125)
     }
     
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
