@@ -39,7 +39,7 @@ class CategoryCell: UICollectionViewCell, UICollectionViewDataSource, UICollecti
         let label = UILabel()
         label.text = "Best New Apps"
         label.font = UIFont.boldSystemFont(ofSize: 18)
-        label.textColor = UIColor.blue
+        label.textColor = UIColor.white
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -49,7 +49,7 @@ class CategoryCell: UICollectionViewCell, UICollectionViewDataSource, UICollecti
         layout.scrollDirection = .horizontal
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         
-        collectionView.backgroundColor = UIColor.lightGray
+        collectionView.backgroundColor = UIColor.black
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         
         return collectionView
@@ -63,7 +63,7 @@ class CategoryCell: UICollectionViewCell, UICollectionViewDataSource, UICollecti
     }()
     
     func setupViews() {
-        backgroundColor = UIColor.lightGray
+        backgroundColor = UIColor.black
         
         addSubview(appsCollectionView)
         addSubview(dividerLineView)
@@ -172,7 +172,7 @@ class AppCell: UICollectionViewCell {
         let label = UILabel()
         label.text = "Disney Build It: Frozen"
         label.font = UIFont.boldSystemFont(ofSize: 15)
-        label.textColor = UIColor.blue
+        label.textColor = UIColor.white
         label.numberOfLines = 2
         return label
     }()
@@ -181,7 +181,7 @@ class AppCell: UICollectionViewCell {
         let label = UILabel()
         label.text = "Entertainment"
         label.font = UIFont.boldSystemFont(ofSize: 14)
-        label.textColor = UIColor.darkGray
+        label.textColor = UIColor.blue
         return label
     }()
     
