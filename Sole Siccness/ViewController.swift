@@ -28,7 +28,7 @@ class FeaturedAppsController: UICollectionViewController, UICollectionViewDelega
             self.collectionView?.reloadData()
         }
         
-        collectionView?.backgroundColor = UIColor.gray
+        collectionView?.backgroundColor = UIColor.red
         collectionView?.register(CategoryCell.self, forCellWithReuseIdentifier: cellId)
         collectionView?.register(LargeCategoryCell.self, forCellWithReuseIdentifier: largeCellId)
         
@@ -71,7 +71,7 @@ class FeaturedAppsController: UICollectionViewController, UICollectionViewDelega
             return CGSize(width: view.frame.width, height: 160)
         }
         
-        return CGSize(width: view.frame.width, height: 220)
+        return CGSize(width: view.frame.width, height: 225)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
@@ -104,7 +104,7 @@ class Header: CategoryCell {
     }
     
     override func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsetsMake(0, 0, 0, 0)
+        return UIEdgeInsetsMake(0, 1, 0, 1)
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -119,7 +119,7 @@ class Header: CategoryCell {
     
     fileprivate class BannerCell: AppCell {
         fileprivate override func setupViews() {
-            imageView.layer.borderColor = UIColor(white: 0.5, alpha: 0.5).cgColor
+            imageView.layer.borderColor = UIColor(white: 0.4, alpha: 0.4).cgColor
             imageView.layer.borderWidth = 0.5
             imageView.layer.cornerRadius = 0
             imageView.translatesAutoresizingMaskIntoConstraints = false
